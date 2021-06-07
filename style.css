@@ -1,0 +1,158 @@
+ *{
+  box-sizing: border-box;
+  
+ }
+
+body {  
+  
+   
+}
+  
+ 
+ .row {
+  
+  
+  
+align-items: center;
+justify-content: center;
+display:inline-block;
+margin-left: 15%; margin-right: 15%;
+    
+
+
+}
+div {
+  
+  display: inline-block;
+  
+ 
+  position: relative;
+    flex-direction: row;
+  
+}
+
+ 
+#container-a {
+  background-color: rgb(209, 202, 202);
+  border: 1px solid black; 
+  margin: 10px;
+  position: relative;
+  width: 300px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+  
+  
+}
+
+#container-b {
+  background-color: rgb(209, 202, 202);
+  border: 1px solid black; 
+  margin: 10px;
+  position: relative;
+  width: 300px;
+  
+}
+
+#container-c {
+  background-color: rgb(209, 202, 202);
+  border: 1px solid black; 
+  margin: 10px;
+  position: relative;
+  width: 300px;
+
+}
+
+  
+
+
+#chicken { border: 1px solid black;
+  background-color: #d48c81; margin: 0px; 
+  margin-bottom: 0px;
+  float: right; 
+    top: 65px;
+    right: 25px;
+    
+    
+}
+
+#Beef { border: 1px solid black;
+  background-color: #df2941; margin: 0px;
+  margin-bottom: 0px;
+  float: right;
+    top: 65px;
+    right: 25px;
+    
+}
+
+#Suchi { border: 1px solid black; margin: 0px;
+  background-color: #afa657; float: right;
+  margin-bottom: 0px;
+
+    top: 65px;
+    right: 25px;
+     }
+
+     h1 {
+      border: 1px solid black;
+      margin-bottom: 15px;
+      float: right; 
+      font-family : 25% Arial, Helvetica, sans-serif;
+    }
+    p {
+      font-family : Arial, Helvetica, sans-serif;
+            margin-bottom: 5px;
+            margin-right: auto;
+           margin-left: auto;
+    }
+    h2 { text-align: center; justify-items: center; font-family : 75% Arial, Helvetica, sans-serif;}
+
+/********** Large devices only **********/
+
+
+/* Dispositivos pequenos (tablets, 768px e superiores) */
+@media (min-width: 768px) and (max-width: 991px) { .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: left; }
+} 
+/* Dispositivos médios (desktops, 992px e superiores) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 
+ 
+  
+  
+ /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 992px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+} }
